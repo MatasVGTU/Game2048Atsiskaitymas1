@@ -8,7 +8,7 @@ import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.input.KeyEvent;
 import javafx.stage.Stage;
 
-public class HelloApplication extends Application {
+public class GameApp extends Application {
     @Override
     public void start(Stage stage){
         GameStatusController.setGameStatusEnum(GameStatusEnum.MAIN_MENU);
